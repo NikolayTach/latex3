@@ -1,0 +1,19 @@
+\documentclass[final]{ltugboat}
+{\unskip, \ignorespaces}
+\makeatletter
+\def\thepage{%
+  \ifnum\value{page}>1000
+    \textit{?\@arabic{\numexpr\the\c@page-1000\relax}}%
+  \else
+       \arabic{page}%
+  \fi}
+\makeatother
+{\unskip, \ignorespaces}
+{\unskip, \ignorespaces}
+\usepackage{url}
+\usepackage{fancyvrb}
+\usepackage{ifmtarg}
+\usepackage{microtype}
+{\unskip, \ignorespaces}
+{\unskip, \ignorespaces}
+{\unskip, \ignorespaces}
